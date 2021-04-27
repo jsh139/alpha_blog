@@ -13,7 +13,9 @@
   <tr>
     <td><%= article.title %></td>
     <td><%= article.description %></td>
-    <td><a href="articles/<%= article.id %>">view</a></td>
+    <td><a href="articles/<%= article.id %>">view</a> |
+      <a href="articles/<%= article.id %>/edit">edit</a> 
+    </td>
   </tr>
 <% end %>
 </tbody>
